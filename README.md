@@ -10,15 +10,11 @@ This project was developed for the IT 462: Big Data Systems course at King Saud 
 * **Domain:** Big Data Analytics, Healthcare Informatics
 
 ## 📂 Repository Structure
-* `/code`: Contains the Scala scripts divided into phases:
-  * `01_DataPreprocessing.scala`: Data cleaning and transformation.
-  * `02_RDDOperations.scala`: Low-level data manipulation using RDDs.
-  * `03_SQLOperations.scala`: Querying and aggregations using Spark SQL.
-  * `04_MachineLearning.scala`: Predictive modeling using Spark MLlib.
-  * `utility_functions.scala`: Helper functions used across the pipeline.
-* `/data`: The original and preprocessed BRFSS 2015 health datasets.
-* `/docs`: Contains the final academic report and presentation slides.
-* `/results`: Output logs, SQL result CSVs, and ML evaluation metrics.
+* `/Scala Code`: Contains all Scala scripts used across the pipeline, including data preprocessing, RDD operations, SQL queries, and machine learning models.
+* `/Results`: Output logs, SQL result CSVs, and ML evaluation metrics.
+* `Dataset.zip`: The compressed archive containing the original and preprocessed BRFSS 2015 health datasets.
+* `Report.pdf`: The final academic report detailing our methodology, analysis, and conclusions.
+* `Presentation.pdf`: The presentation slides summarizing the project for review.
 
 ## 🚀 Key Phases & Implementation
 1. **Data Preprocessing:** Cleaned the raw CDC dataset, handling missing values and casting data types for Spark processing.
